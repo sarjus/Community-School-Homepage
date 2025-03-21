@@ -1,0 +1,140 @@
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+  background-color: #f8f1f1;
+}
+
+/* ADDED STYLISH FONTS AND HYPERLINK STYLES BELOW */
+
+/* Typography */
+h1, h2 {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  color: #8a4546;
+}
+
+h1 {
+  font-size: 2.5em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.8em;
+  border-bottom: 2px solid #a66;
+  padding-bottom: 5px;
+}
+
+/* Hyperlink Styles */
+a {
+  color: #c83737;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 2px 4px;
+  border-bottom: 1px dotted #c83737;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: white;
+  background-color: #c83737;
+  border-radius: 3px;
+  border-bottom: 1px solid #c83737;
+}
+
+a:active {
+  background-color: #8a4546;
+}
+
+a:visited {
+  color: #8a4546;
+  border-bottom-color: #8a4546;
+}
+
+a:visited:hover {
+  color: white;
+  background-color: #8a4546;
+}
+
+/* Navigation Styles */
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  margin-bottom: 10px;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  background-color: #f8f1f1;
+  border: 1px solid #a66;
+  border-radius: 5px;
+  text-align: center;
+  border-bottom: 3px solid #a66;
+}
+
+nav a:hover {
+  background-color: #a66;
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* Lists */
+ul, ol {
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+  line-height: 1.4;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.8em;
+}
